@@ -40,6 +40,7 @@ html {
 
 h1 {
   font-size: var(--header1);
+  font-family: "Vibes", sans-serif;
 }
 
 li,
@@ -63,6 +64,14 @@ h5 {
   font-size: var(--header4);
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -70,10 +79,6 @@ h5 {
   align-items: center;
 }
 
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
+body {
+  font-family: "Ruhl", sans-serif;
 }
