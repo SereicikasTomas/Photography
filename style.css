@@ -168,10 +168,12 @@ nav {
   position: absolute;
   bottom: -20px;
   left: -20%;
+  transform: translateX(-50%);
   z-index: -1;
   animation: plant-entrance 1.5s ease-in-out 0.5s backwards,
     plant-shake 2.5s ease 2s alternate-reverse infinite;
   transform-origin: bottom;
+  max-height: 95%;
 }
 
 .plant2 {
@@ -210,6 +212,19 @@ nav {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 842px) {
+  #logo {
+    font-size: var(--header3);
+  }
+  .hero {
+    width: 100%;
+  }
+
+  .hero-introduction p {
+    padding: 5rem 3rem;
+  }
+  .plant1 {
+    left: -10%;
+  }
   .burger {
     cursor: pointer;
     z-index: 2;
