@@ -311,6 +311,7 @@ nav {
 
 #contact img {
   max-height: 100vh;
+  margin-right: 5%;
 }
 
 /* FOOTER SECTION */
@@ -463,5 +464,16 @@ footer h4 {
 
   #contact img {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  :root {
+    --header1: 3rem;
+    --header2: 5rem;
+    --header3: 4rem;
+    --header4: 3rem;
+    --text: 3rem;
+    --big: 8rem;
   }
 }
