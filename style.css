@@ -20,8 +20,8 @@
   --header3: calc(3rem + 1vw);
   --header4: calc(2.5rem + 1vw);
   --text: calc(1.5rem + 1vw);
-  --big: calc(2.4rem + 1vw);
-  --special-color: #384e52;
+  --big: calc(6rem + 1vw);
+  --special-color: #2c7681;
   --background-color: #414141;
   --gray-text: #525252;
 }
@@ -264,6 +264,49 @@ nav {
   background: rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 2rem 4rem;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.form-wrapper {
+  flex: 3 1 40rem;
+}
+
+.form-wrapper span {
+  font-size: var(--big);
+  color: var(--special-color);
+  justify-self: center;
+}
+
+.form-wrapper label {
+  display: block;
+  margin-top: 4rem;
+}
+
+.form-wrapper input {
+  display: block;
+  border: 3px solid black;
+  margin: 2rem 0;
+  padding: 0.5rem 1rem;
+}
+
+.form-wrapper button {
+  background-color: var(--special-color);
+  color: white;
+  padding: 0.7rem 4rem;
+  border: none;
+  width: 100%;
+}
+
+#contact img {
+  max-height: 100vh;
 }
 
 /* ANIMATIONS */
