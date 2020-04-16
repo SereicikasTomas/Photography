@@ -273,6 +273,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
+  justify-content: center;
 }
 
 .form-wrapper {
@@ -282,12 +283,14 @@ nav {
 .form-wrapper span {
   font-size: var(--big);
   color: var(--special-color);
-  justify-self: center;
+}
+
+.form-wrapper h2 {
+  margin: 4rem;
 }
 
 .form-wrapper label {
   display: block;
-  margin-top: 4rem;
 }
 
 .form-wrapper input {
