@@ -303,13 +303,37 @@ nav {
 .form-wrapper button {
   background-color: var(--special-color);
   color: white;
-  padding: 0.7rem 4rem;
+  padding: 1rem 4rem;
   border: none;
   width: 100%;
+  cursor: pointer;
 }
 
 #contact img {
   max-height: 100vh;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  background: var(--background-color);
+  color: white;
+  display: flex;
+  padding: 3rem 5%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  display: flex;
+  flex: 1 1 20rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h4 {
+  flex: 4 1 55.8rem;
+  font-size: var(--text);
 }
 
 /* ANIMATIONS */
@@ -424,5 +448,20 @@ nav {
   #gallery img {
     grid-column: auto;
     grid-row: auto;
+  }
+
+  footer h4 {
+    text-align: center;
+    margin-top: 3rem;
+    order: 2;
+  }
+
+  footer ul {
+    order: 1;
+    justify-content: space-around;
+  }
+
+  #contact img {
+    display: none;
   }
 }
