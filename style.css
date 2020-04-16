@@ -469,7 +469,7 @@ footer h4 {
 
 @media screen and (min-width: 1700px) {
   :root {
-    --header1: 3rem;
+    --header1: 6rem;
     --header2: 5rem;
     --header3: 4rem;
     --header4: 3rem;
