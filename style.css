@@ -205,11 +205,6 @@ nav {
   font-family: "Ruhl Medium";
 }
 
-.about-text h2 {
-  padding: 4rem;
-  font-family: "Vibes";
-}
-
 .about-image {
   flex: 1 1 40rem;
   position: relative;
