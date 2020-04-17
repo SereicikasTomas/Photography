@@ -411,25 +411,25 @@ footer h4 {
     align-items: center;
     transition: transform 0.5s ease-in-out;
   }
-  #check:checked + .nav-links {
+  .nav-open {
     transform: translateX(-100%);
   }
 
-  #check:checked ~ .burger span {
+  .toggle span {
     background: white;
   }
 
-  #check:checked ~ .burger span:nth-child(1) {
+  .toggle .line1 {
     transform: rotateZ(135deg) translateY(-320%);
     transform-origin: center;
   }
 
-  #check:checked ~ .burger span:nth-child(2) {
+  .toggle .line2 {
     transform: translateX(150%);
     opacity: 0;
   }
 
-  #check:checked ~ .burger span:nth-child(3) {
+  .toggle .line3 {
     transform: rotateZ(-135deg) translateY(320%);
     transform-origin: center;
   }
